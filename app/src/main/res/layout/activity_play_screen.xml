@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".PlayScreen">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:textSize="50sp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="Trivia Quiz with Category" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/trivia_quiz_logo_for_sqlite" />
+
+    <Button
+        android:id="@+id/bt_playQuiz"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/default_button_bg"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="Play Quiz" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/bt_settings"
+        android:background="@drawable/default_button_bg"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+</LinearLayout>
